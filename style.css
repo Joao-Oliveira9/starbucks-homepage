@@ -1,0 +1,60 @@
+@font-face {
+  font-family: SoDoSans;
+  src: url(font/SoDoSans-Black.woff);
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+body
+{
+  font-family:SoDoSans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+  font-size: 1.4rem;
+  border: 1px solid black;
+}
+
+.page-header{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px 60px;
+    background-color:whitesmoke;
+}
+
+.left-header{
+    display: flex;
+    margin: 1rem 8rem 1rem 1rem;
+}
+
+.right-header{
+    display: flex;
+    margin:  1rem 1rem 1rem 8rem;
+}
+
+li a{
+    padding: 1rem;
+    color:#1e3932;
+}
+ 
+img{
+    color: whitesmoke;
+}
+ 
+.compre-aqui{
+    outline: 1px solid whitesmoke;
+    border-radius: 50px;
+    padding: 1rem;
+}
